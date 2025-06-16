@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>通勇塑膠首頁 JSON-LD 結構化資料</title>
+</head>
+<body>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.tonyong.tw/#organization",
+      "name": "通勇塑膠",
+      "url": "https://www.tonyong.tw",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.tonyong.tw/images/logo.png"
+      },
+      "description": "通勇塑膠專營塑膠箱、工具箱、搬運箱、物流箱、塑膠籃、塑膠桶、普力桶等產品，材質採用 PP/PE，耐酸鹼抗衝擊，廣泛應用於倉儲物流、農業、水產與食品加工業。",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "台中市神岡區",
+        "addressRegion": "台中市",
+        "postalCode": "429",
+        "streetAddress": "圳前路126巷18弄16號"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.tonyong.tw/#website",
+      "url": "https://www.tonyong.tw",
+      "name": "通勇塑膠",
+      "publisher": {
+        "@id": "https://www.tonyong.tw/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.tonyong.tw/#webpage",
+      "url": "https://www.tonyong.tw",
+      "name": "通勇塑膠｜塑膠箱、物流箱、普力桶專業供應商",
+      "description": "通勇塑膠為台中塑膠容器製造商，供應塑膠箱、塑膠籃、搬運箱、普力桶、塑膠棧板與烏龜車等工業用塑膠製品，現貨供應，支持批發。"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "通勇塑膠有哪些產品？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "通勇塑膠產品包含：塑膠箱、物流箱、搬運箱、工具箱、塑膠籃、普力桶、塑膠水塔、台車、棧板與零件盒。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "台中地區是否可以配送？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "台中市與中部地區可提供配送服務，數量與路線請來電洽詢。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "產品是否可接受大量訂單？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "通勇塑膠提供大量訂製、工廠批發與長期合作方案，請來電報價。"
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</body>
+</html>
